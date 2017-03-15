@@ -4,8 +4,7 @@ Pick a timezones using the svg map interface to populate input field with select
 
 Create text field with class `zonpicker`
 
-Call zonepicker on the input `$(input.zonpicker).zonepicker()`
+Call zonepicker on the input `$('input.zonepicker').zonepicker()`
 
 Behold! Map appears, hover over country to show timezones and then click to select the chosen timezone.
-R
 
