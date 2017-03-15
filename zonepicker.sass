@@ -1,0 +1,53 @@
+#zonepicker
+  position: relative
+  width: 100%
+  margin-top: 32px
+  svg
+    position: relative
+    top: 0
+    left: 0
+    width: 100%
+    path.hl
+      pointer-events: none
+      fill: white
+      opacity: 0.25
+      transition: fill 0.25s ease-out
+      &.hovered
+        fill: #9BBB59
+      &.selected
+        fill: #4BACC6
+    path.tz
+      fill: #e2e1dd
+      stroke: #969696
+      stroke-width: 0.7px
+      cursor: pointer
+      transition: fill 0.25s ease-out
+      &:hover
+        fill: #9BBB59
+      &.selected
+        fill: #4BACC6
+
+  #zonelabel
+    position: absolute
+    bottom: 0
+    left: 0
+    &.hovering
+      color: #9BBB59
+    h2
+      margin: 0
+      span.label
+        font-size: 1rem
+        display: block;
+        font-weight: 300;
+      span.zonename
+        display: block
+        font-weight: bold
+      span.zonelabel
+        display: block
+        font-weight: lighter
+        color: $pale
+      span.zonedescription
+        display: block;
+        font-weight: 300;
+  
+  

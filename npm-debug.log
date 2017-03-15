@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '.',
+1 verbose cli   '-g' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule zonepicker@1.0.0 checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   escapedName: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: '/Users/sophie/www/zonepicker/source/zonepicker',
+24 silly cache add   type: 'directory' }
+25 verbose addLocalDirectory /Users/sophie/.npm/zonepicker/1.0.0/package.tgz not in flight; packing
+26 verbose correctMkdir /Users/sophie/.npm correctMkdir not in flight; initializing
+27 info lifecycle zonepicker@1.0.0~prepublish: zonepicker@1.0.0
+28 silly lifecycle zonepicker@1.0.0~prepublish: no script for prepublish, continuing
+29 verbose tar pack [ '/Users/sophie/.npm/zonepicker/1.0.0/package.tgz',
+29 verbose tar pack   '/Users/sophie/www/zonepicker/source/zonepicker' ]
+30 verbose tarball /Users/sophie/.npm/zonepicker/1.0.0/package.tgz
+31 verbose folder /Users/sophie/www/zonepicker/source/zonepicker
+32 verbose addLocalTarball adding from inside cache /Users/sophie/.npm/zonepicker/1.0.0/package.tgz
+33 verbose correctMkdir /Users/sophie/.npm correctMkdir not in flight; initializing
+34 silly cache afterAdd zonepicker@1.0.0
+35 verbose afterAdd /Users/sophie/.npm/zonepicker/1.0.0/package/package.json not in flight; writing
+36 verbose correctMkdir /Users/sophie/.npm correctMkdir not in flight; initializing
+37 verbose afterAdd /Users/sophie/.npm/zonepicker/1.0.0/package/package.json written
+38 silly loadAllDepsIntoIdealTree Finishing
+39 silly loadIdealTree Finishing
+40 silly currentTree lib
+41 silly idealTree lib
+41 silly idealTree └── zonepicker@1.0.0
+42 silly generateActionsToTake Starting
+43 silly install generateActionsToTake
+44 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+45 silly rollbackFailedOptional Starting
+46 silly rollbackFailedOptional Finishing
+47 silly runTopLevelLifecycles Finishing
+48 silly install printInstalled
+49 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+49 verbose stack     at Error (native)
+50 verbose cwd /Users/sophie/www/zonepicker/source/zonepicker
+51 error Darwin 15.4.0
+52 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "." "-g"
+53 error node v6.9.4
+54 error npm  v3.10.10
+55 error path /usr/local/lib/node_modules
+56 error code EACCES
+57 error errno -13
+58 error syscall access
+59 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+59 error     at Error (native)
+59 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+59 error     at Error (native)
+59 error   errno: -13,
+59 error   code: 'EACCES',
+59 error   syscall: 'access',
+59 error   path: '/usr/local/lib/node_modules' }
+60 error Please try running this command again as root/Administrator.
+61 verbose exit [ -13, true ]
