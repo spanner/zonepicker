@@ -2,7 +2,7 @@
 
 Pick a timezones using the svg map interface to populate input field with selected timezone name and offset. 
 
-Create text field with class `zonpicker`
+Create text field with class `zonepicker`
 
 Call zonepicker on the input `$('input.zonepicker').zonepicker()`
 
